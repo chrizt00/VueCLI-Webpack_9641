@@ -28,6 +28,16 @@ const router = new VueRouter({
                     name:'Guided',
                     component: importComponent('TodoList/List'),
                 },
+                {
+                    path: "/ugd",
+                    name:'Unguided',
+                    component: importComponent('TodoList/ListUGD'),
+                },
+                {
+                    path: "/tgs",
+                    name:'Tugas',
+                    component: importComponent('TodoList/ListTugas'),
+                },
             ]
         },
     ]
